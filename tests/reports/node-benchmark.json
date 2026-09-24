@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-09-23T17:10:05.716Z",
+  "node": "v24.21.0",
+  "platform": "linux",
+  "release": "6.6.87.2-microsoft-standard-WSL2",
+  "architecture": "x64",
+  "parserSha256": "5d564190b3390b1b15b98d97022e9ad527a9688eaa6914400d9873cf1950ba2b",
+  "cases": [
+    {
+      "targetBytes": 1024,
+      "inputBytes": 1022,
+      "arrayItems": 507,
+      "iterations": 7,
+      "medianMilliseconds": 0.591,
+      "minimumMilliseconds": 0.429
+    },
+    {
+      "targetBytes": 10240,
+      "inputBytes": 10238,
+      "arrayItems": 5115,
+      "iterations": 7,
+      "medianMilliseconds": 3.343,
+      "minimumMilliseconds": 2.99
+    },
+    {
+      "targetBytes": 102400,
+      "inputBytes": 102398,
+      "arrayItems": 51195,
+      "iterations": 7,
+      "medianMilliseconds": 32.297,
+      "minimumMilliseconds": 29.067
+    }
+  ]
+}

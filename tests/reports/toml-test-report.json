@@ -1,0 +1,41 @@
+{
+  "generatedAt": "2026-09-23T17:10:04.641Z",
+  "node": "v24.21.0",
+  "platform": "linux",
+  "release": "6.6.87.2-microsoft-standard-WSL2",
+  "architecture": "x64",
+  "parserSha256": "5d564190b3390b1b15b98d97022e9ad527a9688eaa6914400d9873cf1950ba2b",
+  "tomlTest": "v2.2.0",
+  "commit": "ce08da1ddb075d1c7596d663c7fcba9a2ae02c5c",
+  "manifestSha256": "32e4d8d36023dfe3b115dd95f847c5c989ac58ad7d4f1dbec51c4fc3006d483c",
+  "total": 679,
+  "passed": 679,
+  "failed": 0,
+  "unclassified": 0,
+  "classes": {
+    "spec-invalid": {
+      "total": 460,
+      "passed": 460,
+      "failed": 0
+    },
+    "input-byte-boundary": {
+      "total": 14,
+      "passed": 14,
+      "failed": 0
+    },
+    "spec-valid": {
+      "total": 204,
+      "passed": 204,
+      "failed": 0
+    },
+    "implementation-limit": {
+      "total": 1,
+      "passed": 1,
+      "failed": 0
+    }
+  },
+  "inputByteBoundary": {
+    "malformedUtf8": 11,
+    "validUtf8InvalidToml": 3
+  }
+}

@@ -1,0 +1,4 @@
+node_modules/
+coverage/
+tests/reports/*.txt
+.DS_Store

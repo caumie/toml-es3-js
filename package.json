@@ -1,0 +1,23 @@
+{
+  "name": "toml-es3-js",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A small single-file TOML 1.0 parser written in ES3 JavaScript",
+  "scripts": {
+    "check:es3": "node scripts/check-es3.cjs",
+    "check:lines": "node scripts/check-lines.cjs",
+    "check:api": "node scripts/check-es3.cjs",
+    "test:unit": "node --test tests/unit/*.test.cjs",
+    "test:fixtures": "node --test --test-reporter=dot tests/fixtures/*.test.cjs",
+    "test:integration": "node --test tests/integration/*.test.cjs",
+    "benchmark": "node scripts/benchmark.cjs",
+    "test": "npm run check:api && npm run check:lines && npm run test:unit && npm run test:fixtures && npm run test:integration"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "acorn": "8.18.0",
+    "eslint-scope": "9.1.2"
+  }
+}

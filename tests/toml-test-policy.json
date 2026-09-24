@@ -1,0 +1,4764 @@
+{
+  "tomlTest": "v2.2.0",
+  "commit": "ce08da1ddb075d1c7596d663c7fcba9a2ae02c5c",
+  "tomlVersion": "1.0.0",
+  "manifest": "files-toml-1.0.0",
+  "manifestSha256": "32e4d8d36023dfe3b115dd95f847c5c989ac58ad7d4f1dbec51c4fc3006d483c",
+  "caseCount": 679,
+  "cases": {
+    "invalid/array/double-comma-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/array/double-comma-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/array/extend-defined-aot.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/array/extending-table.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/array/missing-separator-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/array/missing-separator-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/array/no-close-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/array/no-close-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/array/no-close-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/array/no-close-04.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/array/no-close-05.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/array/no-close-06.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/array/no-close-07.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/array/no-close-08.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/array/no-close-table-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/array/no-close-table-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/array/no-comma-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/array/no-comma-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/array/no-comma-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/array/only-comma-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/array/only-comma-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/array/tables-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/array/tables-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/array/text-after-array-entries.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/array/text-before-array-separator.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/array/text-in-array.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/bool/almost-false.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/bool/almost-false-with-extra.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/bool/almost-true.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/bool/almost-true-with-extra.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/bool/capitalized-false.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/bool/capitalized-true.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/bool/just-f.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/bool/just-t.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/bool/mixed-case.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/bool/mixed-case-false.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/bool/mixed-case-true.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/bool/starting-same-false.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/bool/starting-same-true.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/bool/wrong-case-false.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/bool/wrong-case-true.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/bare-cr.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/bare-formfeed.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/bare-null.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/bare-vertical-tab.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/comment-cr.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/comment-del.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/comment-ff.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/comment-lf.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/comment-null.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/comment-us.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/multi-del.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/multi-lf.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/multi-null.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/multi-us.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/only-ff.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/only-null.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/only-vt.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/rawmulti-del.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/rawmulti-lf.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/rawmulti-null.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/rawmulti-us.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/rawstring-cr.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/rawstring-del.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/rawstring-lf.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/rawstring-null.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/rawstring-us.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/string-bs.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/string-cr.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/string-del.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/string-lf.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/string-null.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/control/string-us.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/day-zero.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/feb-29.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/feb-30.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/hour-over.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/mday-over.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/mday-under.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/minute-over.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/month-over.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/month-under.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/no-date-time-sep.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/no-leads.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/no-leads-month.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/no-leads-with-milli.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/no-secs.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/no-t.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/no-year-month-sep.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/offset-minus-minute-1digit.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/offset-minus-no-hour-minute.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/offset-minus-no-hour-minute-sep.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/offset-minus-no-minute.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/offset-overflow-hour.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/offset-overflow-minute.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/offset-plus-minute-1digit.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/offset-plus-no-hour-minute.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/offset-plus-no-hour-minute-sep.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/offset-plus-no-minute.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/only-T.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/only-TZ.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/only-Tdot.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/second-over.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/second-trailing-dot.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/second-trailing-dotz.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/time-no-leads.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/trailing-x.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/datetime/y10k.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/encoding/bad-codepoint.toml": {
+      "sourceStatus": "invalid",
+      "class": "input-byte-boundary",
+      "expected": "fatal-utf8-decode-error",
+      "expectedCode": "UTF8_DECODE_ERROR",
+      "reason": "The fixture contains ill-formed UTF-8 and must be rejected before parse(text)."
+    },
+    "invalid/encoding/bad-utf8-at-end.toml": {
+      "sourceStatus": "invalid",
+      "class": "input-byte-boundary",
+      "expected": "fatal-utf8-decode-error",
+      "expectedCode": "UTF8_DECODE_ERROR",
+      "reason": "The fixture contains ill-formed UTF-8 and must be rejected before parse(text)."
+    },
+    "invalid/encoding/bad-utf8-in-array.toml": {
+      "sourceStatus": "invalid",
+      "class": "input-byte-boundary",
+      "expected": "fatal-utf8-decode-error",
+      "expectedCode": "UTF8_DECODE_ERROR",
+      "reason": "The fixture contains ill-formed UTF-8 and must be rejected before parse(text)."
+    },
+    "invalid/encoding/bad-utf8-in-comment.toml": {
+      "sourceStatus": "invalid",
+      "class": "input-byte-boundary",
+      "expected": "fatal-utf8-decode-error",
+      "expectedCode": "UTF8_DECODE_ERROR",
+      "reason": "The fixture contains ill-formed UTF-8 and must be rejected before parse(text)."
+    },
+    "invalid/encoding/bad-utf8-in-multiline.toml": {
+      "sourceStatus": "invalid",
+      "class": "input-byte-boundary",
+      "expected": "fatal-utf8-decode-error",
+      "expectedCode": "UTF8_DECODE_ERROR",
+      "reason": "The fixture contains ill-formed UTF-8 and must be rejected before parse(text)."
+    },
+    "invalid/encoding/bad-utf8-in-multiline-literal.toml": {
+      "sourceStatus": "invalid",
+      "class": "input-byte-boundary",
+      "expected": "fatal-utf8-decode-error",
+      "expectedCode": "UTF8_DECODE_ERROR",
+      "reason": "The fixture contains ill-formed UTF-8 and must be rejected before parse(text)."
+    },
+    "invalid/encoding/bad-utf8-in-string.toml": {
+      "sourceStatus": "invalid",
+      "class": "input-byte-boundary",
+      "expected": "fatal-utf8-decode-error",
+      "expectedCode": "UTF8_DECODE_ERROR",
+      "reason": "The fixture contains ill-formed UTF-8 and must be rejected before parse(text)."
+    },
+    "invalid/encoding/bad-utf8-in-string-literal.toml": {
+      "sourceStatus": "invalid",
+      "class": "input-byte-boundary",
+      "expected": "fatal-utf8-decode-error",
+      "expectedCode": "UTF8_DECODE_ERROR",
+      "reason": "The fixture contains ill-formed UTF-8 and must be rejected before parse(text)."
+    },
+    "invalid/encoding/bom-not-at-start-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "input-byte-boundary",
+      "expected": "fatal-utf8-decode-error",
+      "expectedCode": "UTF8_DECODE_ERROR",
+      "reason": "The fixture contains ill-formed UTF-8 and must be rejected before parse(text)."
+    },
+    "invalid/encoding/bom-not-at-start-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "input-byte-boundary",
+      "expected": "fatal-utf8-decode-error",
+      "expectedCode": "UTF8_DECODE_ERROR",
+      "reason": "The fixture contains ill-formed UTF-8 and must be rejected before parse(text)."
+    },
+    "invalid/encoding/ideographic-space.toml": {
+      "sourceStatus": "invalid",
+      "class": "input-byte-boundary",
+      "expected": "fatal-utf8-decode-error",
+      "expectedCode": "UTF8_DECODE_ERROR",
+      "reason": "The fixture contains ill-formed UTF-8 and must be rejected before parse(text)."
+    },
+    "invalid/encoding/utf16-bom.toml": {
+      "sourceStatus": "invalid",
+      "class": "input-byte-boundary",
+      "expected": "fatal-utf8-decode-error",
+      "expectedCode": "UTF8_DECODE_ERROR",
+      "reason": "The fixture contains ill-formed UTF-8 and must be rejected before parse(text)."
+    },
+    "invalid/encoding/utf16-comment.toml": {
+      "sourceStatus": "invalid",
+      "class": "input-byte-boundary",
+      "expected": "fatal-utf8-decode-error",
+      "expectedCode": "UTF8_DECODE_ERROR",
+      "reason": "The fixture contains ill-formed UTF-8 and must be rejected before parse(text)."
+    },
+    "invalid/encoding/utf16-key.toml": {
+      "sourceStatus": "invalid",
+      "class": "input-byte-boundary",
+      "expected": "fatal-utf8-decode-error",
+      "expectedCode": "UTF8_DECODE_ERROR",
+      "reason": "The fixture contains ill-formed UTF-8 and must be rejected before parse(text)."
+    },
+    "invalid/float/double-dot-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/double-dot-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/exp-dot-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/exp-dot-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/exp-dot-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/exp-double-e-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/exp-double-e-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/exp-double-us.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/exp-leading-us.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/exp-trailing-us.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/exp-trailing-us-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/exp-trailing-us-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/inf-capital.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/inf-incomplete-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/inf-incomplete-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/inf-incomplete-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/inf_underscore.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/leading-dot.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/leading-dot-neg.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/leading-dot-plus.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/leading-us.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/leading-zero.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/leading-zero-neg.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/leading-zero-plus.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/nan-capital.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/nan-incomplete-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/nan-incomplete-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/nan-incomplete-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/nan_underscore.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/trailing-dot.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/trailing-dot-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/trailing-dot-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/trailing-dot-min.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/trailing-dot-plus.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/trailing-exp.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/trailing-exp-dot.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/trailing-exp-minus.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/trailing-exp-plus.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/trailing-us.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/trailing-us-exp-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/trailing-us-exp-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/us-after-dot.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/float/us-before-dot.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/inline-table/bad-key-syntax.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/inline-table/double-comma.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/inline-table/duplicate-key-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/inline-table/duplicate-key-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/inline-table/duplicate-key-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/inline-table/duplicate-key-04.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/inline-table/empty-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/inline-table/empty-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/inline-table/empty-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/inline-table/linebreak-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/inline-table/linebreak-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/inline-table/linebreak-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/inline-table/linebreak-04.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/inline-table/no-close-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/inline-table/no-close-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/inline-table/no-comma-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/inline-table/no-comma-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/inline-table/overwrite-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/inline-table/overwrite-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/inline-table/overwrite-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/inline-table/overwrite-04.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/inline-table/overwrite-05.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/inline-table/overwrite-06.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/inline-table/overwrite-07.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/inline-table/overwrite-08.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/inline-table/overwrite-09.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/inline-table/overwrite-10.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/inline-table/trailing-comma.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/capital-bin.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/capital-hex.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/capital-oct.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/double-sign-nex.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/double-sign-plus.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/double-us.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/incomplete-bin.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/incomplete-hex.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/incomplete-oct.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/invalid-bin.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/invalid-hex-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/invalid-hex-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/invalid-hex-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/invalid-oct.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/leading-us.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/leading-us-bin.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/leading-us-hex.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/leading-us-oct.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/leading-zero-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/leading-zero-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/leading-zero-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/leading-zero-sign-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/leading-zero-sign-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/leading-zero-sign-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/negative-bin.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/negative-hex.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/negative-oct.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/positive-bin.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/positive-hex.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/positive-oct.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/text-after-integer.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/trailing-us.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/trailing-us-bin.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/trailing-us-hex.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/trailing-us-oct.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/us-after-bin.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/us-after-hex.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/integer/us-after-oct.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/after-array.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/after-table.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/after-value.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/bare-invalid-character-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/bare-invalid-character-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/dot.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/dotdot.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/dotted-redefine-table-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/dotted-redefine-table-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/duplicate-keys-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/duplicate-keys-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/duplicate-keys-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/duplicate-keys-04.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/duplicate-keys-05.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/duplicate-keys-06.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/duplicate-keys-07.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/duplicate-keys-08.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/duplicate-keys-09.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/empty.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/end-in-escape.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/escape.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/hash.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/multiline-key-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/multiline-key-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/multiline-key-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/multiline-key-04.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/newline-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/newline-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/newline-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/newline-04.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/newline-05.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/newline-06.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/no-eol-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/no-eol-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/no-eol-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/no-eol-04.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/no-eol-05.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/no-eol-06.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/no-eol-07.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/only-float.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/only-int.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/only-str.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/open-bracket.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/partial-quoted.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/quoted-unclosed-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/quoted-unclosed-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/single-open-bracket.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/space.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/special-character.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/start-bracket.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/start-dot.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/two-equals-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/two-equals-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/two-equals-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/without-value-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/without-value-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/without-value-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/without-value-04.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/without-value-05.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/without-value-06.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/key/without-value-07.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-date/day-1digit.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-date/feb-29.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-date/feb-30.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-date/mday-over.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-date/mday-under.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-date/month-over.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-date/month-under.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-date/no-leads.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-date/no-leads-with-milli.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-date/trailing-t.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-date/y10k.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-date/year-3digits.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-datetime/feb-29.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-datetime/feb-30.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-datetime/hour-over.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-datetime/mday-over.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-datetime/mday-under.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-datetime/minute-over.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-datetime/month-over.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-datetime/month-under.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-datetime/no-leads.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-datetime/no-leads-with-milli.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-datetime/no-secs.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-datetime/no-t.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-datetime/second-over.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-datetime/time-no-leads.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-datetime/y10k.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-time/hour-over.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-time/minute-over.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-time/no-secs.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-time/second-over.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-time/time-no-leads-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-time/time-no-leads-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-time/trailing-dot.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/local-time/trailing-dotdot.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/spec-1.0.0/inline-table-2-0.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/spec-1.0.0/inline-table-3-0.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/spec-1.0.0/key-value-pair-1.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/spec-1.0.0/keys-2.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/spec-1.0.0/string-4-0.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/spec-1.0.0/string-7-0.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/spec-1.0.0/table-9-0.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/spec-1.0.0/table-9-1.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/bad-byte-escape.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/bad-concat.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/bad-escape-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/bad-escape-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/bad-escape-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/bad-escape-04.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/bad-escape-05.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/bad-hex-esc-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/bad-hex-esc-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/bad-hex-esc-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/bad-hex-esc-04.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/bad-hex-esc-05.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/bad-multiline.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/bad-slash-escape.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/bad-uni-esc-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/bad-uni-esc-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/bad-uni-esc-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/bad-uni-esc-04.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/bad-uni-esc-05.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/bad-uni-esc-06.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/bad-uni-esc-07.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/bad-uni-esc-ml-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/bad-uni-esc-ml-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/bad-uni-esc-ml-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/bad-uni-esc-ml-04.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/bad-uni-esc-ml-05.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/bad-uni-esc-ml-06.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/bad-uni-esc-ml-07.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/basic-byte-escapes.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/basic-multiline-out-of-range-unicode-escape-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/basic-multiline-out-of-range-unicode-escape-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/basic-multiline-quotes.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/basic-multiline-unknown-escape.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/basic-out-of-range-unicode-escape-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/basic-out-of-range-unicode-escape-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/basic-unknown-escape.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/literal-multiline-quotes-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/literal-multiline-quotes-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/missing-quotes.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/missing-quotes-array.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/missing-quotes-inline-table.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/multiline-bad-escape-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/multiline-bad-escape-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/multiline-bad-escape-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/multiline-bad-escape-04.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/multiline-escape-space-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/multiline-escape-space-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/multiline-lit-no-close-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/multiline-lit-no-close-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/multiline-lit-no-close-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/multiline-lit-no-close-04.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/multiline-no-close-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/multiline-no-close-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/multiline-no-close-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/multiline-no-close-04.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/multiline-no-close-05.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/multiline-quotes-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/no-close-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/no-close-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/no-close-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/no-close-04.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/no-close-05.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/no-close-06.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/no-close-07.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/no-close-08.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/no-close-09.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/no-close-10.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/no-open-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/no-open-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/no-open-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/no-open-04.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/no-open-05.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/no-open-06.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/no-open-07.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/no-open-08.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/text-after-string.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/string/wrong-close.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/append-with-dotted-keys-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/append-with-dotted-keys-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/append-with-dotted-keys-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/append-with-dotted-keys-04.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/append-with-dotted-keys-05.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/append-with-dotted-keys-06.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/append-with-dotted-keys-07.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/append-with-dotted-keys-08.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/array-empty.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/array-implicit.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/array-no-close-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/array-no-close-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/array-no-close-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/array-no-close-04.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/bare-invalid-character-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/bare-invalid-character-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/dot.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/dotdot.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/duplicate-key-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/duplicate-key-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/duplicate-key-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/duplicate-key-04.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/duplicate-key-05.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/duplicate-key-06.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/duplicate-key-07.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/duplicate-key-08.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/duplicate-key-09.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/duplicate-key-10.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/empty.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/empty-implicit-table.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/equals-sign.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/llbrace.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/multiline-key-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/multiline-key-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/nested-brackets-close.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/nested-brackets-open.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/newline-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/newline-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/newline-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/newline-04.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/newline-05.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/no-close-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/no-close-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/no-close-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/no-close-04.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/no-close-05.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/no-close-06.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/no-close-07.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/no-close-08.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/no-close-09.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/overwrite-array-in-parent.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/overwrite-bool-with-array.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/overwrite-with-deep-table.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/redefine-01.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/redefine-02.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/redefine-03.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/rrbrace.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/super-twice.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/text-after-table.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/trailing-dot.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/whitespace.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "invalid/table/with-pound.toml": {
+      "sourceStatus": "invalid",
+      "class": "spec-invalid",
+      "expected": "parser-error",
+      "expectedCode": "TOMLParseError",
+      "reason": "Invalid TOML 1.0 case; the parser must reject it with the documented error object."
+    },
+    "valid/array/array.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/array/array-subtables.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/array/bool.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/array/empty.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/array/hetergeneous.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/array/mixed-int-array.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/array/mixed-int-float.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/array/mixed-int-string.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/array/mixed-string-table.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/array/nested.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/array/nested-double.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/array/nested-inline-table.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/array/nospaces.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/array/open-parent-table.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/array/string-quote-comma-01.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/array/string-quote-comma-02.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/array/string-with-comma-01.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/array/string-with-comma-02.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/array/strings.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/array/table-array-string-backslash.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/array/trailing-comma.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/bool/bool.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/comment/after-literal-no-ws.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/comment/at-eof.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/comment/at-eof2.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/comment/everywhere.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/comment/noeol.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/comment/nonascii.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/comment/tricky.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/datetime/datetime.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/datetime/edge.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/datetime/invalid-date-in-string.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/datetime/leap-year.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/datetime/local.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/datetime/local-date.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/datetime/local-time.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/datetime/milliseconds.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/datetime/timezone.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/empty-crlf.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/empty-lf.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/empty-nothing.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/empty-space.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/empty-tab.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/example.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/float/exponent.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/float/float.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/float/inf-and-nan.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/float/long.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/float/max-int.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/float/underscore.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/float/zero.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/implicit-and-explicit-after.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/implicit-and-explicit-before.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/implicit-groups.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/inline-table/array-01.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/inline-table/array-02.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/inline-table/array-03.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/inline-table/bool.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/inline-table/empty.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/inline-table/end-in-bool.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/inline-table/inline-table.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/inline-table/key-dotted-01.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/inline-table/key-dotted-02.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/inline-table/key-dotted-03.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/inline-table/key-dotted-04.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/inline-table/key-dotted-05.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/inline-table/key-dotted-06.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/inline-table/key-dotted-07.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/inline-table/multiline.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/inline-table/nest.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/inline-table/spaces.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/integer/float64-max.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/integer/integer.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/integer/literals.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/integer/long.toml": {
+      "sourceStatus": "valid",
+      "class": "implementation-limit",
+      "limit": "L01",
+      "expected": "parser-error",
+      "expectedCode": "E_INTEGER_RANGE",
+      "reason": "The int64 boundaries exceed the exact-integer subset supported by JavaScript Number."
+    },
+    "valid/integer/underscore.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/integer/zero.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/key/alphanum.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/key/case-sensitive.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/key/dotted-01.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/key/dotted-02.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/key/dotted-03.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/key/dotted-04.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/key/dotted-empty.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/key/empty-01.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/key/empty-02.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/key/empty-03.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/key/equals-nospace.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/key/escapes.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/key/like-date.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/key/numeric-01.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/key/numeric-02.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/key/numeric-03.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/key/numeric-04.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/key/numeric-05.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/key/numeric-06.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/key/numeric-07.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/key/numeric-08.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/key/quoted-dots.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/key/quoted-unicode.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/key/space.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/key/special-chars.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/key/special-word.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/key/start.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/key/zero.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/multibyte.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/newline-crlf.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/newline-lf.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/array-0.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/array-1.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/array-of-tables-0.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/array-of-tables-1.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/array-of-tables-2.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/boolean-0.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/comment-0.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/float-0.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/float-1.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/float-2.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/inline-table-0.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/inline-table-1.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/inline-table-2.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/inline-table-3.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/integer-0.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/integer-1.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/integer-2.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/key-value-pair-0.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/keys-0.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/keys-1.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/keys-3.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/keys-4.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/keys-5.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/keys-6.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/keys-7.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/local-date-0.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/local-date-time-0.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/local-time-0.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/offset-date-time-0.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/offset-date-time-1.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/string-0.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/string-1.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/string-2.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/string-3.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/string-4.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/string-5.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/string-6.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/string-7.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/table-0.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/table-1.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/table-2.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/table-3.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/table-4.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/table-5.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/table-6.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/table-7.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/table-8.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-1.0.0/table-9.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-example-1.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/spec-example-1-compact.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/string/basic-escape-01.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/string/basic-escape-02.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/string/basic-escape-03.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/string/empty.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/string/ends-in-whitespace-escape.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/string/escape-tricky.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/string/escaped-escape.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/string/escapes.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/string/multibyte.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/string/multibyte-escape.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/string/multiline.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/string/multiline-empty.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/string/multiline-escaped-crlf.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/string/multiline-quotes.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/string/nl.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/string/quoted-unicode.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/string/raw.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/string/raw-empty.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/string/raw-multiline.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/string/simple.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/string/start-mb.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/string/unicode-escape.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/string/with-pound.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/table/array-empty.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/table/array-empty-name.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/table/array-implicit.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/table/array-implicit-and-explicit-after.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/table/array-many.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/table/array-nest.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/table/array-one.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/table/array-table-array.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/table/array-within-dotted.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/table/empty.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/table/empty-name.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/table/keyword.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/table/keyword-with-values.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/table/names.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/table/names-with-values.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/table/no-eol.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/table/sub.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/table/sub-empty.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/table/whitespace.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/table/with-literal-string.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/table/with-pound.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/table/with-single-quotes.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/table/without-super.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    },
+    "valid/table/without-super-with-values.toml": {
+      "sourceStatus": "valid",
+      "class": "spec-valid",
+      "expected": "parse-and-match-json",
+      "expectedCode": null,
+      "reason": "Valid TOML 1.0 case; its tagged JSON sidecar is the expected semantic result."
+    }
+  }
+}
